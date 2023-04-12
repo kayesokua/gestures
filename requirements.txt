@@ -1,0 +1,12 @@
+librosa
+matplotlib
+mediapipe-silicon
+numpy
+opencv-contrib-python
+opencv-python
+scikit-learn
+scipy
+urllib3
+pandas
+google-auth
+google-api-python-client
