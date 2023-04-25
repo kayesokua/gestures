@@ -1,0 +1,12 @@
+filename, total_frames, missing_frames, fps
+chinese_fan_001.mp4,4167,613,30
+classical_ballet_001.mp4,3636,492,29
+contemporary_001.mp4,958,76,30
+contemporary_002.mp4,1539,25,30
+contemporary_003.mp4,613,14,25
+contemporary_004.mp4,732,2,30,25
+contemporary_005.mp4,3168,275,25
+contemporary_006.mp4,1834,233,25
+contemporary_007.mp4,4704,727,25
+contemporary_008.mp4,2286,306,24
+filipino_folk_001.mp4,4131,62,30

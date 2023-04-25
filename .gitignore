@@ -1,38 +1,18 @@
-# Ignore keyfile.json
+# Ignore environment secrets
 src/data/keyfile.json
+.env
 
-# Ignore .DS_Store files
+# Ignore cache files
 .DS_Store
-
-# Ignore __pycache__ directories
 __pycache__
-
-# Ignore Python bytecode files
+/.ipynb_checkpoints
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore virtual environment directories
-.venv/
-
-# Ignore log files
-*.log
-
-# Ignore compiled code files
-*.so
-*.dylib
-*.exe
-*.dll
-
-# Ignore editor and IDE files
-.idea/
-.vscode/
-*.sublime*
-*.emacs*
-
-#Files
+#Ignore large Files
 *.mp4
 *.png
 *.csv
-
-*.json
+*.docx
+*.pdf

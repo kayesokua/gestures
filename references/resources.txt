@@ -1,0 +1,12 @@
+filename,video_title,video_url
+contemporary_001.mp4,just breathe tutorial paris cav, https://www.youtube.com/watch?v=_bn9gy7Xwpk
+contemporary_002.mp4,goldwing bilie ellish choreography paris cav, https://www.youtube.com/watch?v=s2bIyEE5hds
+contemporary_003.mp4, paris cav choreography thule travis lake, https://www.youtube.com/watch?v=AEKuW3rI5wY
+contemporary_004.mp4, fast paris cav michael dameski choreography, https://www.youtube.com/watch?v=NgBRL1WADJ8
+contemporary_005.mp4, everybody wants to rule the world lorde paris cavanagh doty final, https://www.youtube.com/watch?v=hGe8ABEnJbQ
+contemporary_006.mp4, skinny love birdy cover contemporary solo emma joubert, https://www.youtube.com/watch?v=QOlSCBRmfWY
+contemporary_007.mp4, hey little fighter modern dance video, https://www.youtube.com/watch?v=-CfdYcKY9sU
+contemporary_008.mp4, rihanna diamonds lia kim, https://www.youtube.com/watch?v=QOlSCBRmfWY&t
+classical_ballet_001.mp4, gariations of giselle, https://www.youtube.com/watch?v=4b2qygF2n1c
+filipino_folk_001.mp4, alitaptap folk dance solo, https://www.youtube.com/watch?v=DtqrkEtnvz0
+chinese_fan_001.mp4, chinese classical dance fan demonstration, https://www.youtube.com/watch?v=6AkmOwEgQQ8&t=81s
