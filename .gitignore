@@ -6,6 +6,7 @@ src/data/keyfile.json
 .DS_Store
 __pycache__
 /.ipynb_checkpoints
+/drafts
 *.pyc
 *.pyo
 *.pyd
