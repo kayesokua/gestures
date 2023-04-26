@@ -1,4 +1,5 @@
 import os
+import cv2
 import time
 import pytube
 from google.oauth2 import service_account
@@ -70,3 +71,4 @@ def extract_video_from_youtube(query, max_count):
 
                         if download_count >= max_count:
                             break
+

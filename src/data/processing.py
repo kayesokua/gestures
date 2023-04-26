@@ -1,17 +1,7 @@
 import os
-import time
+import cv2
 import pandas as pd
 from sklearn.ensemble import IsolationForest
-
-def measure_elapsed_time(function):
-    def wrapper(*args, **kwargs):
-        start_time = time.time()
-        result = function(*args, **kwargs)
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        print(f"Elapsed time: {elapsed_time:.3f} seconds")
-        return result
-    return wrapper
 
 def create_output_dir_if_not_exists(output_dir):
     if not os.path.exists(output_dir):
@@ -36,3 +26,18 @@ def process_landmarks_using_isolation_forest(input_dir: str):
                 create_output_dir_if_not_exists(os.path.dirname(output_file_path))
                 filtered_kinematic_data.to_csv(output_file_path, index=False)
                 print(f"Processed {input_file_path} and saved results to {output_file_path}")
+
+def check_video_size(video_path):
+    video_size = None
+    for filename in os.listdir(video_path):
+        if filename.endswith('.mp4'):
+            filepath = os.path.join(video_path, filename)
+            cap = cv2.VideoCapture(filepath)
+            width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+            height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            cap.release()
+            if video_size is None:
+                video_size = (width, height)
+            elif (width, height) != video_size:
+                return False
+    return True
