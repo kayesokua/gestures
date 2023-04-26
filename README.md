@@ -22,7 +22,7 @@ The notebooks are organized in a chronological sequence and it is recommended to
 
 `1_introduction.ipynb`.: This notebook provides an overview of the data collection process and the approach to preprocessing the kinematic data for the downloaded dance video dataset.
 
-`2_data_augmention.ipynb`: This notebook focuses on the data augmented.
+`2_data_augmentation.ipynb`: This notebook demonstrates a data augmentation process for kinematic data, including the estimation of additional joint positions, angles, and distances, using geometric methods for both relative and absolute values, with the assumption that the performer is in an upright position.
 
 `3_performance_analysis.ipynb`: This notebook analyzes and visualizes dance performances using joint trajectories, motion energy mapping, and PCA for variety examination. The descriptive statistics offer insights into gesture extraction.
 
