@@ -1,12 +1,8 @@
 import os
-import cv2
 import time
 import pytube
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
-
-credentials = service_account.Credentials.from_service_account_file('./keyfile.json')
-youtube = build('youtube', 'v3', credentials=credentials)
 
 def measure_elapsed_time(function):
     def wrapper(*args, **kwargs):
@@ -24,6 +20,9 @@ def create_output_dir_if_not_exists(output_dir):
 
 @measure_elapsed_time
 def extract_video_from_youtube(query, max_count):
+    credentials = service_account.Credentials.from_service_account_file('./keyfile.json')
+    youtube = build('youtube', 'v3', credentials=credentials)
+
     output_dir = f"../../data/external/"
     create_output_dir_if_not_exists(output_dir)
 
@@ -71,4 +70,3 @@ def extract_video_from_youtube(query, max_count):
 
                         if download_count >= max_count:
                             break
-
