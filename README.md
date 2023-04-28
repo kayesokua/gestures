@@ -1,4 +1,4 @@
-# Computational Decoding of Dance Gestures
+# Dance Gesture Analysis
 
 Dance is a long-standing form of human expression, used to convey emotions, tell stories, and entertain audiences. However, providing informative feedback on dance performances can be challenging due to the subjective nature of traditional descriptions. These descriptions are reliant upon the observer's personal interpretation of the dance movements, which can be heavily influenced by various factors such as their background and the context of the performance. This subjectivity can hinder the provision of comprehensive and impartial feedback, thereby impeding the dancers' growth in developing their artistic style and advancing the art form.
 
